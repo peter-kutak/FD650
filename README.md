@@ -3,12 +3,18 @@ reuse set-top box with display and keys
 
 FD650 is similar to TM1650 (just keys need to be read from address 0x27 not from 0x24)
 
+sleep zhasne display a po stlaceni tlacidla sa rozsvieti (fungovalo mi to iba na polovici tlacidiel)
+
+v 7bit rezime by mal pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa da pripojit na irq pin procesora a citat hodnotu az po stlaceni tlacidla, bez neustaleho citania po zbernici (neskusal som)
+
 # connection
 
-+5v (3V - 5.5V)
-SDA
-SCL
-GND
+|----|----|
+|+5v | 3V - 5.5V|
+|SDA | |
+|SCL | |
+|GND | |
+|KP  | optional |
 
 # linux
 
