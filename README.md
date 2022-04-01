@@ -41,6 +41,12 @@ Ctrl+C to exit watch command
 
 ## set LEDs mode
 
+| xxxx xxxO | On/off |
+| xxxx xSxx | Sleep |
+| xxxx 7xxx | 7/8-bit (dot segment) |
+| xBBB xxxx | Brightness |
+
+
 7-bit data; highest intensity; turned on
 ```bash
 i2cset -y 1 0x24 0x79
@@ -82,3 +88,9 @@ i2cset -y 1 0x37 0x3f
 exists but not tested
 
 https://github.com/arthur-liberman/linux_openvfd/blob/master/driver/controllers/fd650.c
+
+
+# fremd
+https://allenchak.wordpress.com/2020/11/23/tm1650-fd650/
+
+https://github.com/jinzhifeng/SourceCode_old/blob/master/fd650.h
