@@ -1,7 +1,7 @@
 # FD650
 reuse set-top box with display and keys
 
-FD650 is similiar to TM1650 (just keys need to be read from address 0x27 not from 0x24)
+FD650 is similar to TM1650 (just keys need to be read from address 0x27 not from 0x24)
 
 # connection
 
