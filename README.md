@@ -33,29 +33,41 @@ Continue? [Y/n]
 ```
 
 ## read keys
-`watch -n 1 i2cget -y 1 0x27`
+```bas
+watch -n 1 i2cget -y 1 0x27
+```
 
 Ctrl+C to exit watch command
 
 ## set LEDs mode
 
 7-bit data; highest intensity; turned on
-`i2cset -y 1 0x24 0x79`
+```bash
+i2cset -y 1 0x24 0x79
+```
 
 8-bit data; lowest intensity; turned on
-`i2cset -y 1 0x24 0x11`
+```bash
+i2cset -y 1 0x24 0x11
+```
 
 
 ## set text on LED
 
 1st digit, segment A
-`i2cset -y 1 0x34 0x01`
+```bash
+i2cset -y 1 0x34 0x01
+```
 
 2st digit, dot segment (8bit mode)
-`i2cset -y 1 0x35 0x80`
+```bash
+i2cset -y 1 0x35 0x80
+```
 
 4-th digit; segment G
-`i2cset -y 1 0x37 0x40`
+```bash
+i2cset -y 1 0x37 0x40
+```
 
 HELO
 ```bash
