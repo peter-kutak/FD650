@@ -77,6 +77,8 @@ i2cset -y 1 0x36 0x38
 i2cset -y 1 0x37 0x3f
 ```
 
-#linux driver
+# linux driver
+
 exists but not tested
+
 https://github.com/arthur-liberman/linux_openvfd/blob/master/driver/controllers/fd650.c
