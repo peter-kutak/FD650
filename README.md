@@ -9,12 +9,13 @@ v 7bit rezime by mal pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze 
 
 # connection
 
-|----|----|
-|+5v | 3V - 5.5V|
-|SDA | |
-|SCL | |
-|GND | |
-|KP  | optional |
+| name | notice |
+|------|--------|
+| +5v | 3V - 5.5V |
+| SDA | |
+| SCL | |
+| GND | |
+| KP  | optional |
 
 # linux
 
