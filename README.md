@@ -8,7 +8,7 @@ sleep zhasne display a po stlaceni tlacidla sa rozsvieti (funguje to iba na polo
 v 7bit rezime je pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa da pripojit na irq pin procesora a citat hodnotu az po stlaceni tlacidla, bez neustaleho citania po zbernici 
 - po zapnuti elektriky je tam nula a par dlhych inpulzov (mozno ignorovat)
 - po zapnuti zapisom 0x01 na 0x24 tam je 5V (signal 0.1ms 2v / 8ms 5v; prepadlina v signale zodpoveda brightness = cim jasnejsi tym dlhsii cas iba 2v)
-- po stlaceni klavesy je tam 0v; pozor ked sa stlaci rovnaka klavesa ako v predoslom kole tak to nezafunguje => nie je mozny dvojklik; takze este treba nieco ved stlacanie rovnakej klavesy je bezne = volume up
+- po stlaceni klavesy je tam 0v; pozor ked sa stlaci rovnaka klavesa ako v predoslom kole tak to nezafunguje => nie je mozny dvojklik; takze este treba nieco ved stlacanie rovnakej klavesy je bezne = volume up, nic nepomaha anipnut/zapnut displey, ten je zjavne nezavysly klavesy funguju aj pri vypnutom led; preto to asi nikto nepouziva, ani ja to nemam vyvedene; aj tak potrtrebuju 8bit pre dvojbodku/bodku
 - po vycitani stavu z 0x27 sa vrati signal 5v
 
 # connection
