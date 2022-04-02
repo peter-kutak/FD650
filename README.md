@@ -18,8 +18,8 @@ v 7bit rezime je pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa d
 | +5v | 3V - 5.5V |
 | SCL | |
 | SDA | |
-| | |
-| | |
+| ir | IR receiver |
+| on/stb | 0v when button pressed |
 | +led | green |
 | GND | |
 
