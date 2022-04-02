@@ -51,9 +51,11 @@ Ctrl+C to exit watch command
 | bits      | description |
 |-----------|-------------|
 | xxxx xxxO | On/off      |
+| xxxx xxIx | Invalid (must be 0) |
 | xxxx xSxx | Sleep       |
 | xxxx 7xxx | 7/8-bit (dot segment) |
 | xBBB xxxx | Brightness  |
+| Ixxx xxxx | Invalid (must be 0) |
 
 
 7-bit data; highest intensity; turned on
