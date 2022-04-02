@@ -5,17 +5,20 @@ FD650 is similar to TM1650 (just keys need to be read from address 0x27 not from
 
 sleep zhasne display a po stlaceni tlacidla sa rozsvieti (fungovalo mi to iba na polovici tlacidiel)
 
-v 7bit rezime by mal pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa da pripojit na irq pin procesora a citat hodnotu az po stlaceni tlacidla, bez neustaleho citania po zbernici (neskusal som)
+v 7bit rezime by mal pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa da pripojit na irq pin procesora a citat hodnotu az po stlaceni tlacidla, bez neustaleho citania po zbernici (neskusal som); na osciloskope nic nieje; iba po zapnutu do prveho stlacenia klavesy
 
 # connection
 
 | name | notice |
 |------|--------|
 | +5v | 3V - 5.5V |
-| SDA | |
 | SCL | |
+| SDA | |
+| | |
+| | |
+| +led | green |
 | GND | |
-| KP  | optional |
+
 
 # linux
 
