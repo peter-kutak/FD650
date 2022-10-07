@@ -15,14 +15,15 @@ v 7bit rezime je pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa d
 
 | name | notice |
 |------|--------|
-| +5v | 3V - 5.5V |
+| +3.3v | 3V - 5.5V |
 | SCL | |
 | SDA | |
-| ir | IR receiver |
-| on/stb | 0v when button pressed |
-| +led | green |
-| GND | |
+| ir  | IR receiver; -led red |
+| stb | 0v when on/stb button pressed |
+| lock| +led green |
+| GND | red cable |
 
+na plosaku je oznacenie ir<->stb prehodene ale to nedava zmysel
 
 # linux
 
