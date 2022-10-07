@@ -23,7 +23,7 @@ v 7bit rezime je pin16 dp/kp volny na signalizaciu stlacenia klavesy, takze sa d
 | lock| +led green |
 | GND | red cable |
 
-na plosaku je oznacenie ir<->stb prehodene ale to nedava zmysel
+na plosaku je oznacenie ir<->stb prehodene ale to nedava zmysel; bude to zlozitejsie aby pri vypnutom svietila led a ritom islo zapnut tlacitkom aj dialkovym
 
 # linux
 
